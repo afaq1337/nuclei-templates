@@ -11,6 +11,8 @@ requests:
     path:
       - "{{BaseURL}}/package.json"
       - "{{BaseURL}}/package-lock.json"
+      - "{{BaseURL}}/tsconfig.json"
+      - "{{BaseURL}}/jsconfig.json"
 
     matchers-condition: and
     matchers:
